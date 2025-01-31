@@ -1,0 +1,122 @@
+ /* إعدادات عامة */
+body {
+    font-family: 'Cairo', sans-serif;
+    background: #ffcc00; /* أصفر */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+/* تصميم الهيدر وصورة الملف الشخصي */
+.hero {
+    background: linear-gradient(to right, #003366, #0055aa); /* تدرج أزرق */
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.hero img.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.hero img.profile-img:hover {
+    transform: scale(1.1);
+}
+
+.hero h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* تصميم المحتوى */
+.container {
+    width: 90%;
+    max-width: 600px;
+    background: white;
+    color: #003366;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* تأثيرات الحركة */
+.card {
+    background: #0055aa;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* أيقونات التواصل الاجتماعي */
+.social .icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social .icons img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease, opacity 0.3s;
+}
+
+.social .icons img:hover {
+    transform: scale(1.2) rotate(10deg);
+    opacity: 0.8;
+}
+/* تصميم أيقونات وسائل التواصل */
+.social .icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social .icons img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease, opacity 0.3s;
+}
+
+.social .icons img:hover {
+    transform: scale(1.2) rotate(10deg);
+    opacity: 0.8;
+}/* تصميم أيقونات وسائل التواصل */
+.social .icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social .icons img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease, opacity 0.3s;
+}
+
+.social .icons img:hover {
+    transform: scale(1.2) rotate(10deg);
+    opacity: 0.8;
+}
